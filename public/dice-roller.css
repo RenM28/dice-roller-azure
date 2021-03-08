@@ -1,0 +1,45 @@
+/* general page formatting */
+body {
+	font-family: verdana;
+	color: darkblue;
+	font-size: 20px;
+}
+
+/* formatting for textboxes w/ dice roll */
+input {
+	text-align: right;
+	width: 40px;
+	font-size: 20px;
+	border: 1px solid darkblue;
+	margin-bottom: 5px;
+	color: darkblue;
+}
+
+/* title banner */
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* banner image */
+img {
+	width: 100px;
+	height: 100px;
+}
+
+/* header formatting */
+h3 {
+	font-size: 30px;
+	color: midnightblue;
+}
+
+/* formatting for roll button */
+button {
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	color: darkblue;
+	border: 1px solid darkblue;
+	background-color: aliceblue;
+}

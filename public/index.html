@@ -1,0 +1,67 @@
+<!--
+Author: Ren Gernes
+Class: Software Engineering
+Project: Lab2/Dice Roller
+Description: This is the initial version 
+of my dice roller app and is being submitted
+as part of Lab 2
+-->
+
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, 
+		initial-scale=1.0">
+		<title> LRC Dice Roller </title>
+		
+		<!-- Style Sheet -->
+		<link rel="stylesheet" type="text/css" href="dice-roller.css">
+		
+		<!-- Script file to roll dice -->
+		<script src="dice-roller.js"></script>
+	</head>
+	
+	<body onload="rollDice()"> <!-- Randomizes roll on load -->
+		<!-- Sets up title banner w/ title and image -->
+		<table>
+			<tr>
+				<th>
+					<h1> Left, Right, Center Dice Roller </h1>
+				</th>
+				<th>
+					<img src="LCR.png" alt="dice"></img>
+				</th>
+			</tr>
+		</table>
+		
+		<!-- User instructions -->
+		<h3>Instructions:</h3>
+		<p> If you're dying to play some good old fashioned
+		LRC but don't have any dice lying around, today's 
+		your lucky day! <br>
+		Simply click the roll button below or hit enter to
+		roll all 3 dice. True to the game, you can either roll a 
+		"L", "R", "C", or ".". <br>
+		If you get an L, you pass to the left, an R means
+		pass to the right, C means you pass to the center, 
+		and . means you're safe. <br>
+		Have fun and roll away!</p>
+		
+		<!-- Labels and textboxes that display randomized rolls -->
+		<h3>Dice:</h3>
+		<label>Dice 1:</label>
+		<input type="text" id="dice1" readonly></input>
+		<br>
+		
+		<label>Dice 2:</label>
+		<input type="text" id="dice2" readonly></input>
+		<br>
+		
+		<label>Dice 3:</label>
+		<input type="text" id="dice3" readonly></input>
+		<br>
+		
+		<!-- Dice rolls on button click -->
+		<button onclick="rollDice()" autofocus>Roll dice</button>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "name": "app-service-dice-roller",
+    "description": "Dice Roller",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Ren Gernes",
+    "scripts": {
+        "start": "index.js"
+    }
+}
